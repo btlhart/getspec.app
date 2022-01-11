@@ -1,9 +1,8 @@
 html, body {
-    background: rgba(246, 246, 246, 0.5);
     color: #222222;
     font-family: Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
-    /* height: 100%; */
+    height: 100%;
     letter-spacing: 0;
     line-height: 24px;
     margin: 0;
@@ -19,63 +18,110 @@ a {
 
 /* H E A D E R S  &  L A B E L S */
 
-.h1 {
-    color: #000000;
-    font-size: 24px;
+h1 {
     font-weight: bold;
-    letter-spacing: 0.005em;
-    line-height: 40px;
-    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 8px 0;
 }
 
-/* S P A C E R S */
-.top-128 {
-    margin-top: 128px;
+h2 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin: 8px 0;
 }
-.top-64 {
-    margin-top: 64px;
+
+/* L A Y O U T */
+.content-container {
+    display: flex;
+    height: -webkit-fill-available;
+    padding: 88px 16px 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.top-56 {
-    margin-top: 56px;
+
+.header-lockup {
 }
-.top-48 {
-    margin-top: 48px;
+
+.app-icon {
+    flex: 0 1 296px;
+    height: 296px;
+    margin: 32px 0;
+    background-image: url(images/app-icon.svg);
+    background-size: cover;
 }
-.top-40 {
-    margin-top: 40px;
+
+.waitlist-text {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 0 20px;
 }
-.top-32 {
-    margin-top: 32px;
+
+.form-eyebrow {
+    flex: 0 1 676px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
 }
-.top-24 {
-    margin-top: 24px;
+
+.form-lockup {
+    display: flex;
+    flex: 0 1 676px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 16px;
 }
-.top-16 {
-    margin-top: 16px;
+
+.email-form {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* flex: 0 1 460px; */
+    flex-grow: 1;
+    padding: 26px 25px;
+    background: #C4C4C4;
+    border: 2px solid #B4B4B4;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
-.top-8 {
+
+.submit-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    flex: 0 1 192px;
+    padding: 26px 25px;
+    background: #C4C4C4;
+    border: 2px solid #B4B4B4;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.form-subtitle {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
     margin-top: 8px;
 }
 
-.sides-16 {
-    margin-left: 16px;
-    margin-right: 16px;
-}
-.sides-8 {
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-.centered {
+.footer {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    align-self: flex-end;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
 }
-
-.break {
-    flex-basis: 100%;
-    height: 0;
-  }
 
 /* B U T T O N S */
   
@@ -84,11 +130,33 @@ a {
 /* I M A G E S */
 
 /* A D D - O N S */
+    .break {
+        flex-basis: 100%;
+    }
   
 /* M O B I L E */
 @media (max-width: 648px) {
-    .test {
-        color: blue;
+    .content-container {
+        padding: 36px 16px 24px;
+    }
+    .app-icon {
+        flex: 0 1 156px;
+        height: 156px;
+    }
+
+    .email-form {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 13px 12px;
+        border-radius: 6px;
+    }
+
+    .submit-button {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 13px 12px;
+        border-radius: 6px;
+        flex-basis: 100%;
     }
 
 }/* E N D   M O B I L E */
