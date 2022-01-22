@@ -129,23 +129,6 @@ input::placeholder {
     color: rgba(17, 58, 95, .2);
   }
 
-/* .submit-button {
-    color: #fff;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    flex: 1 1 192px;
-    padding: 26px 25px;
-    background: #113A5F;
-    border: 1px solid rgba(17, 58, 95, .2);
-    box-sizing: border-box;
-    box-shadow: 0px 2px 2px rgba(56, 68, 98, 0.2);
-    border-radius: 12px;
-    cursor: pointer;
-} */
-
 input[type='submit'] {
     color: #fff;
     font-style: normal;
@@ -182,6 +165,7 @@ input[type='submit'] {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 8px;
 }
 
 /* B U T T O N S */
@@ -213,14 +197,6 @@ input[type='submit'] {
         flex: 1 1 100%;
     }
 
-    /* .submit-button {
-        font-size: 12px;
-        line-height: 14px;
-        padding: 13px 12px;
-        border-radius: 6px;
-        flex-basis: 100%;
-    } */
-
     input[type='submit'] {
         font-size: 12px;
         line-height: 14px;
@@ -230,8 +206,6 @@ input[type='submit'] {
     }
 
 }/* E N D   M O B I L E */
-
-
 
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
     input[type='submit']
