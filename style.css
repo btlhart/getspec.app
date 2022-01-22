@@ -205,9 +205,12 @@ input[type='submit'] {
         flex-basis: 100%;
     }
 
-    input, submit { /* more specific to override webkit */ 
+    input[type='submit'] { /* more specific to override webkit */ 
         -webkit-appearance:none;  
+        font-size: 12px;
+        line-height: 14px;
         padding: 13px 12px;
+        border-radius: 6px;
         display:block;
      }
 
