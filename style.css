@@ -204,10 +204,17 @@ input::placeholder {
         flex-basis: 100%;
     }
 
-    form input #submit-button { /* more specific to override webkit */ 
+    input, submit { /* more specific to override webkit */ 
         -webkit-appearance:none;  
         padding: 13px 12px;
         display:block;
      }
 
 }/* E N D   M O B I L E */
+
+@supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type='submit']
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+  }
