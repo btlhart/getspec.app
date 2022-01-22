@@ -197,7 +197,6 @@ input[type='submit'] {
         flex: 1 1 100%;
     }
 
-    input[type='submit'] {
     .submit-button {
         font-size: 12px;
         line-height: 14px;
