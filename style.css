@@ -198,6 +198,7 @@ input[type='submit'] {
     }
 
     input[type='submit'] {
+    .submit-button {
         font-size: 12px;
         line-height: 14px;
         padding: 13px 12px;
@@ -205,11 +206,17 @@ input[type='submit'] {
         flex-basis: 100%;
     }
 
-}/* E N D   M O B I L E */
+    input, submit { /* more specific to override webkit */ 
+        -webkit-appearance:none;  
+        padding: 13px 12px;
+        display:block;
+     }
 
-@supports(-webkit-appearance: none) or (-moz-appearance: none) {
-    input[type='submit']
-      -webkit-appearance: none;
-      -moz-appearance: none;
-    }
-  }
+     @supports(-webkit-appearance: none) or (-moz-appearance: none) {
+        input[type='submit']
+          -webkit-appearance: none;
+          -moz-appearance: none;
+        }
+      }
+
+}/* E N D   M O B I L E */
