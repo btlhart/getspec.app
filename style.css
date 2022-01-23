@@ -130,7 +130,7 @@ input::placeholder {
 input[type='submit'] {
     color: #fff;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
