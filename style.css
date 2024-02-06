@@ -50,7 +50,7 @@ h2 {
 }
 
 .app-icon {
-    flex: 0 1 296px;
+    flex: 0 1 400px;
     height: 296px;
     margin: 32px 0;
     background-image: url(images/app-icon.svg);
@@ -187,7 +187,7 @@ input[type='submit'] {
         padding: 36px 0 0;
     }
     .app-icon {
-        flex: 0 1 156px;
+        flex: 0 1 200px;
         height: 156px;
     }
 
