@@ -183,6 +183,11 @@ input[type='submit'] {
 /* M O B I L E */
 @media (max-width: 768px) {
 
+    h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
     .content-container {
         padding: 36px 0 0;
     }
