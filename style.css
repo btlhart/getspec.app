@@ -25,10 +25,11 @@ a {
 
 h1 {
     font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 52px;
     text-align: center;
     margin: 8px 0 24px;
+    color: #dddddd;
 }
 
 h2 {
@@ -179,6 +180,11 @@ input[type='submit'] {
     width: 144px;
     opacity: .8;
     margin: 32px auto 0;
+}
+
+.spec-logo {
+    width: 288px;
+    padding: 16px 72px;
 }
 
 /* A D D - O N S */
