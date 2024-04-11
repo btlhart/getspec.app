@@ -175,6 +175,12 @@ input[type='submit'] {
 
 /* I M A G E S */
 
+.created-by-dr {
+    width: 144px;
+    opacity: .8;
+    margin: 32px auto 0;
+}
+
 /* A D D - O N S */
     .break {
         flex-basis: 100%;
