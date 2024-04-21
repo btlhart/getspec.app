@@ -58,6 +58,36 @@ h2 {
     background-size: cover;
 }
 
+.alert-message {
+    /* color: #1f2328;
+    background-color: #fff8c5; */
+    color: gray;
+    background-color: #262626;
+    font-size: 12px;
+    /* font-weight: bold; */
+    line-height: 20px;
+    text-align: center;
+    margin: 32px 0 20px;
+    flex: 0 1 676px;
+    padding: 16px 16px;
+    /* border: 1px solid #d4a72c66; */
+    border: 1px solid #666;
+    border-radius: 8px;
+}
+
+.alert-message_button {
+    display: block;
+    color: #fff;
+    /* background-color: #FFC619; */
+    background-color: #3578f6;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px 6px;
+    margin: 16px 0 0;
+    border: 1px solid rgba(17, 58, 95, .2);
+    border-radius: 4px;
+}
+
 .confirmation-before {
     color: gray;
     background-color: #262626;
