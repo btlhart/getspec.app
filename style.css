@@ -317,6 +317,10 @@ input[type='submit'] {
         display:block;
      }
 
+     .phone-lockup {
+        padding: 72px 0 0;
+     }
+
 }/* E N D   M O B I L E */
 
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
