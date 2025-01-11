@@ -321,6 +321,10 @@ input[type='submit'] {
         padding: 72px 0 0;
      }
 
+     .spec-logo {
+        margin: 48px 0 32px;
+    }
+
 }/* E N D   M O B I L E */
 
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
